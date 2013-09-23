@@ -1,0 +1,19 @@
+
+{
+  "name": "simple-route",
+  "description": "Simple Routing for both browser and node.js.",
+  "version": "0.0.1",
+  "author": "kyo_ago <kyo.ago1983@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kyo-ago/simple-route.js.git"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "testem": "*",
+    "expect.js": "*",
+    "sinon": "~1.7.3"
+  },
+  "main": "./Route.js",
+  "license": "MIT"
+}
