@@ -1,7 +1,8 @@
 Simple-Route.js
 =================
 
-Simple Routing Library for both browser and node.js
+Simple Routing Library for both browser and node.js  
+(Simple URL Dispatcher)
 
 SYNOPSIS
 --------
@@ -14,7 +15,7 @@ SYNOPSIS
 
 	Route.clear();
 
-	// Call all callback
+	// Call all callbacks
 	Route.add('exec', '/path/to/url', callback);
 	Route.add('exec', callback);
 	Route.dispath('exec');

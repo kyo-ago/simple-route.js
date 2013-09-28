@@ -28,7 +28,7 @@ describe('simple-route', function () {
 			Route.dispath('exec', '/path/to/url?queryStrings');
 			expect(spy.called).to.be.ok();
 		});
-		it('Call all callback', function () {
+		it('Call all callbacks', function () {
 			var spy = sinon.spy();
 			Route.add('exec', '/', spy);
 			Route.dispath('exec');
